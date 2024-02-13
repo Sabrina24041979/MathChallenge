@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MathChallenge</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+      <h1>MathChallenge</h1>
+  <div class="container">
+
+    <div class="addition">
+      <h2>Addition</h2>
+      <p id="problem"></p>
+      <input type="text" id="answer" placeholder="Réponse">
+      <button onclick="checkAnswer()">Vérifier</button>
+      <p id="result"></p>
+      <button onclick="generateProblem()">Nouveau Problème</button>
+    </div>
+
+    <div class="substraction">
+      <h2>Soustraction</h2>
+      <p id="subtractionProblem"></p>
+      <input type="text" id="subtractionAnswer" placeholder="Réponse">
+      <button onclick="checkSubtractionAnswer()">Vérifier</button>
+      <p id="subtractionResult"></p>
+      <button onclick="generateSubtractionProblem()">Nouveau Problème</button>
+    </div>
+
+    <div class="multiplication">
+      <h2>Multiplication</h2>
+      <p id="multiplicationProblem"></p>
+      <input type="text" id="multiplicationAnswer" placeholder="Réponse">
+      <button onclick="checkMultiplicationAnswer()">Vérifier</button>
+      <p id="multiplicationResult"></p>
+      <button onclick="generateMultiplicationProblem()">Nouveau Problème</button>
+    </div>
+    
+    <div class="division">
+      <h2>Division</h2>
+      <p id="divisionProblem"></p>
+      <input type="text" id="divisionAnswer" placeholder="Réponse">
+      <button onclick="checkDivisionAnswer()">Vérifier</button>
+      <p id="divisionResult"></p>
+      <button onclick="generateDivisionProblem()">Nouveau Problème</button>
+    </div>
+
+  </div>
+  
+
+  <script src="app.js"></script>
+</body>
+</html>

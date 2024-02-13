@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.addition,
+.substraction,
+.multiplication,
+.division {
+  background-color: #cfd1d5;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 20px;
+}
+
+input {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px;
+  cursor: pointer;
+}
